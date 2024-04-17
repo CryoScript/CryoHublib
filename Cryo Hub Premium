@@ -76,6 +76,9 @@ function Library:CreateWindow(TitleText)
 	CloseBtn_1.Text = "X"
 	CloseBtn_1.TextColor3 = Color3.fromRGB(166,166,166)
 	CloseBtn_1.TextSize = 14
+        CloseBtn_1.MouseButton1Click:Connect(function()
+          game.CoreGui:FindFirstChild("Library"):Destroy()
+         end)
 	
 	ElementsHolder_1.Name = "ElementsHolder"
 	ElementsHolder_1.Parent = MainHolder_1
