@@ -55,7 +55,7 @@ function Library:CreateWindow(TitleText)
 	TitleText_1.Position = UDim2.new(0, 0,0.107142858, 0)
 	TitleText_1.Size = UDim2.new(0, 433,0, 21)
 	TitleText_1.Font = Enum.Font.Gotham
-	TitleText_1.Text = "Cryo Private | "..TitleText
+	TitleText_1.Text = "Cryo Hub | "..TitleText
 	TitleText_1.TextColor3 = Color3.fromRGB(166,166,166)
 	TitleText_1.TextSize = 14
 	TitleText_1.TextXAlignment = Enum.TextXAlignment.Left
