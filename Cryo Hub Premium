@@ -629,22 +629,4 @@ local isDragging = false
 	end
 	return Tabs
 end
-
--- Script starts here!
-local Window = Library:CreateWindow("Legends Of Speed")
-local Tab1 = Window:CreateTab("General")
-local Tab2 = Window:CreateTab("Miscellaneous")
-
-local Section1 = Tab1:CreateSection("Main Farms")
-
-Section1:CreateButton("Button Example", function()
-    print("Works")
-end)
-Section1:CreateToggle("Toggle Example", function(state)
-    print(state)
-end)
-Section1:CreateSection("Section Example")
-Section1:CreateSlider("Slider Example", 125, function(value)
-    print(value)
-end)
 return Library
