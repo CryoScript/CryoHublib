@@ -780,7 +780,7 @@ function library:Introduction()
     Cryo.BackgroundTransparency = 1.000
     Cryo.Size = UDim2.new(0, 80, 0, 21)
     Cryo.Font = Enum.Font.Code
-    Cryo.Text = "powered by Cryo"
+    Cryo.Text = "powered by Cryo Hub"
     Cryo.TextColor3 = Color3.fromRGB(124, 124, 124)
     Cryo.TextSize = 10.000
     Cryo.TextTransparency = 1
