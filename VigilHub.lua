@@ -758,7 +758,7 @@ function library:Introduction()
     CryoLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     CryoLogo.Size = UDim2.new(0, 448, 0, 150)
     CryoLogo.Visible = true
-    CryoLogo.Image = "http://www.roblox.com/asset/?id=17209870713" -- image 1 loader
+    CryoLogo.Image = "http://www.roblox.com/asset/?id=17210002460" -- image 1 loader
     CryoLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     CryoLogo.ImageTransparency = 1
     
@@ -769,7 +769,7 @@ function library:Introduction()
     hashLogo.BackgroundTransparency = 1.000
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
-    hashLogo.Visible = false
+    hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=9365069861" -- image 2 loader
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     hashLogo.ImageTransparency = 1
