@@ -758,7 +758,7 @@ function library:Introduction()
     CryoLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     CryoLogo.Size = UDim2.new(0, 448, 0, 150)
     CryoLogo.Visible = true
-    CryoLogo.Image = "http://www.roblox.com/asset/?id=14357865778" -- image 1 loader
+    CryoLogo.Image = "http://www.roblox.com/asset/?id=14351220754" -- image 1 loader
     CryoLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     CryoLogo.ImageTransparency = 1
     
