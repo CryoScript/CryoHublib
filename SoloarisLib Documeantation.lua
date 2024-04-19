@@ -1,4 +1,4 @@
-local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua"))()
+local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/CryoScript/CryoHublib/main/SolarisLib.lua"))()
 
 --[[SolarisLib:New({
   Name - Title of the UI <string>
