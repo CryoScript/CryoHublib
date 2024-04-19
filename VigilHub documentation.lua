@@ -1,8 +1,8 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CryoScript/CryoHublib/main/VigilHub.lua"))()
 
 
 library.rank = "developer"
-local Wm = library:Watermark("xsx example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
+local Wm = library:Watermark("Cryo example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
 local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
 coroutine.wrap(function()
     while wait(.75) do
@@ -13,7 +13,7 @@ end)()
 
 local Notif = library:InitNotifications()
 
-local LoadingXSX = Notif:Notify("Loading xsx lib v2, please be patient.", 5, "information") 
+local LoadingCryo = Notif:Notify("Loading Cryo lib v2, please be patient.", 5, "information") 
 
 library.title = "Vigil"
 
@@ -79,7 +79,7 @@ end)
 
 
 
-local FinishedLoading = Notif:Notify("Loaded xsx example", 4, "success")
+local FinishedLoading = Notif:Notify("Loaded Cryo example", 4, "success")
 
 -- // FUNCTION DOCS: 
 --[[
