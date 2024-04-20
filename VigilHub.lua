@@ -79,8 +79,8 @@ local drag = function(obj, latency)
 end
 
 local library = {
-    version = "2.0.2",
-    title = title or "Cryo " .. tostring(math.random(1,366)),
+    version = "2.0.0",
+    title = title or "Cryo Hub " .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
 }
@@ -780,7 +780,7 @@ function library:Introduction()
     Cryo.BackgroundTransparency = 1.000
     Cryo.Size = UDim2.new(0, 80, 0, 21)
     Cryo.Font = Enum.Font.Code
-    Cryo.Text = "powered by: Cryo Hub"
+    Cryo.Text = "powered: Cryo Hub"
     Cryo.TextColor3 = Color3.fromRGB(124, 124, 124)
     Cryo.TextSize = 10.000
     Cryo.TextTransparency = 1
