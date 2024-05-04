@@ -1556,7 +1556,7 @@ function Library:CreateWindow()
 				SliderTxt_1.BorderSizePixel = 0
 				SliderTxt_1.Size = UDim2.new(0, 147,0, 14)
 				SliderTxt_1.Font = Enum.Font.GothamBold
-				SliderTxt_1.Text = "Slider"
+				SliderTxt_1.Text = SliderText
 				SliderTxt_1.TextColor3 = Color3.fromRGB(161,161,161)
 				SliderTxt_1.TextSize = 14
 				SliderTxt_1.TextXAlignment = Enum.TextXAlignment.Left
@@ -1678,7 +1678,7 @@ function Library:CreateWindow()
 				LabelTxt_1.BorderSizePixel = 0
 				LabelTxt_1.Size = UDim2.new(0, 208,0, 15)
 				LabelTxt_1.Font = Enum.Font.GothamBold
-				LabelTxt_1.Text = "Label"
+				LabelTxt_1.Text = LabelText
 				LabelTxt_1.TextColor3 = Color3.fromRGB(161, 161, 161)
 				LabelTxt_1.TextSize = 11
 			end
@@ -1704,7 +1704,7 @@ function Library:CreateWindow()
 				SectionTxt_1.BorderSizePixel = 0
 				SectionTxt_1.Size = UDim2.new(0, 208,0, 15)
 				SectionTxt_1.Font = Enum.Font.GothamBold
-				SectionTxt_1.Text = "Section"
+				SectionTxt_1.Text = SectionText
 				SectionTxt_1.TextColor3 = Color3.fromRGB(255,255,255)
 				SectionTxt_1.TextSize = 11
 			end	
@@ -1736,7 +1736,7 @@ function Library:CreateWindow()
 				BoxTxt_1.BorderSizePixel = 0
 				BoxTxt_1.Size = UDim2.new(0, 147,0, 30)
 				BoxTxt_1.Font = Enum.Font.GothamBold
-				BoxTxt_1.Text = "Box"
+				BoxTxt_1.Text = BoxText
 				BoxTxt_1.TextColor3 = Color3.fromRGB(161, 161, 161)
 				BoxTxt_1.TextSize = 14
 				BoxTxt_1.TextXAlignment = Enum.TextXAlignment.Left
