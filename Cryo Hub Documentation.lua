@@ -1,4 +1,4 @@
-local CryoHub = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/CryoHublib/main/Cryo%20Hub.lua')))()
+local CryoLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/CryoHublib/main/Cryo%20Hub.lua')))()
 
 local Window = Library:CreateWindow("CH Title", "Main") -- Main(has to be the same text as the first tab | if first tabs is named auto farm name this auto farm)
 
