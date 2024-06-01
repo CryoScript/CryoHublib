@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/CryoHublib/main/Cryo%20Hub.lua'),true))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CryoScript/CryoHublib/main/Cryo%20Hub.lua"))()
 
 local Window = Library:CreateWindow("CH Title", "Main")
 
