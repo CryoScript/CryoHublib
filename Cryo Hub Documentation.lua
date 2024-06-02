@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CryoScript/CryoHublib/main/Cryo%20Hub.lua"))()
 
-local Window = Library:CreateWindow("CH Title", "Main")
+local Window = Library:CreateWindow("CH Title", "Main") -- This and Tab 1 have to have the same name
 
 local Tab1 = Window:CreateTab("M", "Main")
 local Tab2 = Window:CreateTab("O", "Other")
