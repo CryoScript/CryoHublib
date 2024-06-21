@@ -1,2 +1,2 @@
 # CryoHublib
-.lua library for Cryo Hub
+.lua resources for Cryo Hub offical library
